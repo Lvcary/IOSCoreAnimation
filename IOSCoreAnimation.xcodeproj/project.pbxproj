@@ -15,7 +15,13 @@
 		0E12A1991E654E1800C337B2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E12A1971E654E1800C337B2 /* LaunchScreen.storyboard */; };
 		0E12A1A21E65520A00C337B2 /* CAShapeLayerVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E12A1A11E65520A00C337B2 /* CAShapeLayerVC.m */; };
 		0E12A1A51E66ACC200C337B2 /* CoreAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E12A1A41E66ACC200C337B2 /* CoreAnimation.m */; };
+		0E4D91131F32B5DF0058D6A5 /* LayerVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E4D91121F32B5DF0058D6A5 /* LayerVC.m */; };
+		0E4D91151F32B6ED0058D6A5 /* headImage.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 0E4D91141F32B6ED0058D6A5 /* headImage.jpeg */; };
+		0E4D91181F330F1B0058D6A5 /* CubeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E4D91171F330F1B0058D6A5 /* CubeVC.m */; };
+		0E4D911B1F332B980058D6A5 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E4D911A1F332B980058D6A5 /* GLKit.framework */; };
+		0E4D911D1F332BA00058D6A5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E4D911C1F332BA00058D6A5 /* CoreGraphics.framework */; };
 		0E64A0C41E836C5700D1ABCD /* Neuron.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E64A0C31E836C5700D1ABCD /* Neuron.m */; };
+		0E6DF9561E94C4B300EE5D08 /* CoreBluetooth.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E6DF9551E94C4B300EE5D08 /* CoreBluetooth.m */; };
 		0EA775131E8113100014E9C0 /* CoreGraphics.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EA775121E8113100014E9C0 /* CoreGraphics.m */; };
 		0EA775161E8113300014E9C0 /* CoreGraphicsCustomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EA775151E8113300014E9C0 /* CoreGraphicsCustomView.m */; };
 /* End PBXBuildFile section */
@@ -35,8 +41,17 @@
 		0E12A1A11E65520A00C337B2 /* CAShapeLayerVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CAShapeLayerVC.m; sourceTree = "<group>"; };
 		0E12A1A31E66ACC200C337B2 /* CoreAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreAnimation.h; sourceTree = "<group>"; };
 		0E12A1A41E66ACC200C337B2 /* CoreAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreAnimation.m; sourceTree = "<group>"; };
+		0E4D91111F32B5DF0058D6A5 /* LayerVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LayerVC.h; sourceTree = "<group>"; };
+		0E4D91121F32B5DF0058D6A5 /* LayerVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LayerVC.m; sourceTree = "<group>"; };
+		0E4D91141F32B6ED0058D6A5 /* headImage.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = headImage.jpeg; sourceTree = "<group>"; };
+		0E4D91161F330F1B0058D6A5 /* CubeVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CubeVC.h; sourceTree = "<group>"; };
+		0E4D91171F330F1B0058D6A5 /* CubeVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CubeVC.m; sourceTree = "<group>"; };
+		0E4D911A1F332B980058D6A5 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		0E4D911C1F332BA00058D6A5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		0E64A0C21E836C5700D1ABCD /* Neuron.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Neuron.h; sourceTree = "<group>"; };
 		0E64A0C31E836C5700D1ABCD /* Neuron.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Neuron.m; sourceTree = "<group>"; };
+		0E6DF9541E94C4B300EE5D08 /* CoreBluetooth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreBluetooth.h; sourceTree = "<group>"; };
+		0E6DF9551E94C4B300EE5D08 /* CoreBluetooth.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreBluetooth.m; sourceTree = "<group>"; };
 		0EA775111E8113100014E9C0 /* CoreGraphics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreGraphics.h; sourceTree = "<group>"; };
 		0EA775121E8113100014E9C0 /* CoreGraphics.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreGraphics.m; sourceTree = "<group>"; };
 		0EA775141E8113300014E9C0 /* CoreGraphicsCustomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreGraphicsCustomView.h; sourceTree = "<group>"; };
@@ -48,6 +63,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0E4D911D1F332BA00058D6A5 /* CoreGraphics.framework in Frameworks */,
+				0E4D911B1F332B980058D6A5 /* GLKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +76,7 @@
 			children = (
 				0E12A1881E654E1800C337B2 /* IOSCoreAnimation */,
 				0E12A1871E654E1800C337B2 /* Products */,
+				0E4D91191F332B980058D6A5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -87,6 +105,13 @@
 				0EA775151E8113300014E9C0 /* CoreGraphicsCustomView.m */,
 				0E64A0C21E836C5700D1ABCD /* Neuron.h */,
 				0E64A0C31E836C5700D1ABCD /* Neuron.m */,
+				0E6DF9541E94C4B300EE5D08 /* CoreBluetooth.h */,
+				0E6DF9551E94C4B300EE5D08 /* CoreBluetooth.m */,
+				0E4D91111F32B5DF0058D6A5 /* LayerVC.h */,
+				0E4D91121F32B5DF0058D6A5 /* LayerVC.m */,
+				0E4D91161F330F1B0058D6A5 /* CubeVC.h */,
+				0E4D91171F330F1B0058D6A5 /* CubeVC.m */,
+				0E4D91141F32B6ED0058D6A5 /* headImage.jpeg */,
 				0E12A1921E654E1800C337B2 /* Main.storyboard */,
 				0E12A1951E654E1800C337B2 /* Assets.xcassets */,
 				0E12A1971E654E1800C337B2 /* LaunchScreen.storyboard */,
@@ -102,6 +127,15 @@
 				0E12A18A1E654E1800C337B2 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0E4D91191F332B980058D6A5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0E4D911C1F332BA00058D6A5 /* CoreGraphics.framework */,
+				0E4D911A1F332B980058D6A5 /* GLKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,6 +169,7 @@
 				TargetAttributes = {
 					0E12A1851E654E1800C337B2 = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 4FB3J7UK95;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -165,6 +200,7 @@
 				0E12A1991E654E1800C337B2 /* LaunchScreen.storyboard in Resources */,
 				0E12A1961E654E1800C337B2 /* Assets.xcassets in Resources */,
 				0E12A1941E654E1800C337B2 /* Main.storyboard in Resources */,
+				0E4D91151F32B6ED0058D6A5 /* headImage.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -175,10 +211,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0E4D91181F330F1B0058D6A5 /* CubeVC.m in Sources */,
+				0E4D91131F32B5DF0058D6A5 /* LayerVC.m in Sources */,
 				0EA775161E8113300014E9C0 /* CoreGraphicsCustomView.m in Sources */,
 				0E12A1911E654E1800C337B2 /* ViewController.m in Sources */,
 				0E64A0C41E836C5700D1ABCD /* Neuron.m in Sources */,
 				0E12A1A51E66ACC200C337B2 /* CoreAnimation.m in Sources */,
+				0E6DF9561E94C4B300EE5D08 /* CoreBluetooth.m in Sources */,
 				0E12A18E1E654E1800C337B2 /* AppDelegate.m in Sources */,
 				0EA775131E8113100014E9C0 /* CoreGraphics.m in Sources */,
 				0E12A1A21E65520A00C337B2 /* CAShapeLayerVC.m in Sources */,
@@ -300,7 +339,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4FB3J7UK95;
 				INFOPLIST_FILE = IOSCoreAnimation/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = lkr.IOSCoreAnimation;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -312,7 +353,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4FB3J7UK95;
 				INFOPLIST_FILE = IOSCoreAnimation/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = lkr.IOSCoreAnimation;
 				PRODUCT_NAME = "$(TARGET_NAME)";

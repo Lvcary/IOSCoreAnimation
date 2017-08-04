@@ -21,6 +21,8 @@
 
 @property (nonatomic, strong) CADisplayLink * displayLink;
 
+@property (nonatomic, strong)CALayer * key4Layer;
+
 @end
 
 @implementation CoreAnimation
@@ -78,6 +80,7 @@
     
     [self animation2];
     [self animation3];
+    [self animation4];
 }
 
 - (void)animation2 {
@@ -105,6 +108,8 @@
     }
     return _keyLayer;
 }
+
+
 
 
 #pragma mark animationDelegate
@@ -153,6 +158,30 @@
         i = 0;
     }
 }
+
+
+
+- (void)animation4 {
+    
+    CAKeyframeAnimation * keyAnimation = [CAKeyframeAnimation animationWithKeyPath:@"transform.rotation.z"];
+    keyAnimation.duration = 3;
+    
+    self.key4Layer.frame = CGRectMake(30, 350, 40, 30);
+    [self.key4Layer addAnimation:keyAnimation forKey:@"rotation"];
+    
+}
+
+- (CALayer *)key4Layer {
+    
+    if (!_key4Layer) {
+        _key4Layer = [CALayer layer];
+        _key4Layer.backgroundColor = [UIColor purpleColor].CGColor;
+        [self.view.layer addSublayer:_key4Layer];
+    }
+    return _key4Layer;
+}
+
+
 
 
 @end

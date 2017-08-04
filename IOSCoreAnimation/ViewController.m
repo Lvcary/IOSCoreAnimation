@@ -23,7 +23,7 @@
     _tableview.delegate = self;
     _tableview.dataSource = self;
 
-    _dataSource = [[NSMutableArray alloc] initWithObjects:@"CAShapeLayerVC",@"CoreAnimation",@"CoreGraphics",@"Neuron", nil];
+    _dataSource = [[NSMutableArray alloc] initWithObjects:@"CAShapeLayerVC",@"CoreAnimation",@"CoreGraphics",@"Neuron",@"CoreBluetooth",@"LayerVC",@"CubeVC", nil];
 }
 
 - (void)testRunLoop {
@@ -57,10 +57,13 @@
     static NSString * indefiter = @"coreAnimation";
     UITableViewCell * cell = [tableView dequeueReusableCellWithIdentifier:indefiter];
     if (!cell) {
-        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:indefiter];
+        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleSubtitle reuseIdentifier:indefiter];
     }
     
     cell.textLabel.text = [_dataSource objectAtIndex:indexPath.row];
+    if (indexPath.row == 6) {
+        cell.detailTextLabel.text = @"立方体-可拖拽";
+    }
     
     return cell;
 }
